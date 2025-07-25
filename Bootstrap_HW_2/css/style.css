@@ -1,0 +1,149 @@
+::placeholder{
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-image: url('../assets/search-solid.svg');
+  background-position: 10px center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  display: block;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+  margin-top: 5px;
+  width: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.story-item {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none !important;
+}
+
+.story-item:hover {
+  text-decoration: none !important;
+}
+
+/* Story container styling */
+.story-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 16px 0;
+}
+
+.story-container::-webkit-scrollbar {
+  display: none;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.middlearea {
+  max-height: 200px !important;
+}
+
+.bookmark-offset-7 {
+  margin-left: 7rem !important;
+}
+
+.stickysidebar {
+  position: sticky;
+  top: 80px;
+}
+
+.card-header, .card-footer {
+  background: #fff !important;
+}
+
+body {
+  background: #fafafa !important;
+}
+
+/* Fix navbar positioning */
+.navbar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.navbar .container-fluid {
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+/* Center the main content area */
+.middlearea {
+  max-width: 614px;
+  margin: 0 auto;
+}
+
+.rightpanel {
+  background: transparent !important;
+  border: none !important;
+}
+
+@media (max-width: 1200px) {
+  .rightpanel {
+    display: none !important;
+  }
+}
+
+/* Story container styling */
+.story-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 16px 0;
+}
+
+.story-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Posts styling */
+.post-card {
+  max-width: 614px;
+  margin: 0 auto 24px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+}
